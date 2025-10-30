@@ -2,96 +2,119 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Ciem Cornelissen
+    - name: Affiliation
+      value: IDLab, Ghent University - imec
+    - name: Location
+      value: Ghent, Belgium
     - name: Languages
-      value: English, German
+      value: Dutch (Native), English (Fluent)
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD in Computer Science Engineering
+      institution: Ghent University - imec, Belgium
+      year: 2023 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Research focus on adaptive sensor fusion for autonomous systems
+        - Developing transformer-based fusion methods for RGB, SWIR, and hyperspectral data
+        - Applications in autonomous driving and precision agriculture
+    - title: Advanced Master in Artificial Intelligence
+      institution: KU Leuven, Belgium
+      year: 2022 - 2023
       description:
-        - Description 1.
-        - Description 2.
+        - Thesis on Quantum Computing for Earth Observation
+        - Specialized in Deep Learning, Computer Vision, and Data Science
+        - Strong performance with 77% overall (85% in relevant courses)
+    - title: Master of Science in Physics
+      institution: Ghent University, Belgium
+      year: 2020 - 2022
+      description:
+        - Thesis on Criticality and Forecasting of the Cryptocurrency Market
+        - Complemented with elective courses in Artificial Intelligence
+        - Focus on complex systems and statistical modeling
+    - title: Bachelor of Science in Physics
+      institution: Ghent University, Belgium
+      year: 2017 - 2020
+      description:
+        - Foundational training in analytical thinking and problem-solving
+        - Strong mathematical and computational background
 
-- title: Experience
+- title: Research Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: PhD Researcher
+      institution: IDLab, Ghent University - imec
+      year: 2023 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - AI-driven precision agriculture and environmental monitoring
+        - Development of LISA (Light-Invariant Spectral Autoencoder) for illumination-invariant HSI analysis
+        - Creation of OHSLIC algorithm for efficient UAV-based phenotype segmentation
+        - Published in IEEE IoT Journal, WACV, and Neural Computing and Applications
+    - title: Research Assistant
+      institution: IDLab, Ghent University - imec
+      year: 2022 - 2023
       description:
-        - Description 1.
-        - Description 2.
+        - Hyperspectral imaging for viticulture applications
+        - Deep learning for multi-modal sensor fusion
+        - Field testing and data collection for precision agriculture systems
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Publications
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
+    - year: 2025
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+        - In-Field Mapping of Grape Yield and Quality with Illumination-Invariant Deep Learning (IEEE IoT Journal)
+        - Adaptive Clustering for Efficient Phenotype Segmentation of UAV Hyperspectral Data (WACV)
+        - Computational Fairness in Adaptive Neural Networks (Neural Computing and Applications)
 
-- title: Academic Interests
+- title: Technical Skills
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Machine Learning & AI
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Deep Learning (PyTorch, TensorFlow)
+        - Computer Vision
+        - Transformer architectures
+        - Domain-adversarial learning
+        - Adaptive neural networks
+    - title: Sensors & Data
       items:
-        - Description 1.
-        - Description 2.
+        - Hyperspectral imaging (HSI)
+        - RGB and SWIR sensors
+        - Multi-modal sensor fusion
+        - UAV-based remote sensing
+    - title: Programming & Tools
+      items:
+        - Python, Git, Docker
+        - Data analysis and visualization
+        - IoT system development
+        - Field data collection
 
-- title: Other Interests
+- title: Research Interests
+  type: nested_list
+  contents:
+    - title: Precision Agriculture
+      items:
+        - Non-destructive crop monitoring
+        - Yield and quality prediction
+        - Illumination-invariant perception
+    - title: Autonomous Systems
+      items:
+        - Sensor fusion for perception
+        - Real-time on-device processing
+        - Domain adaptation and robustness
+    - title: AI Ethics & Fairness
+      items:
+        - Computational fairness in adaptive systems
+        - Resource allocation disparities
+        - Ethical implications of efficient AI
+
+- title: Academic Activities
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - Presented research at WACV 2025, IEEE IoT Journal
+    - Gave deep dive talk at FAIR Day (October 15, 2025)
+    - Active collaboration with ILVO (Institute for Agriculture, Food and Fishery Research Flanders)
+    - Member of IDLab research group at Ghent University - imec
