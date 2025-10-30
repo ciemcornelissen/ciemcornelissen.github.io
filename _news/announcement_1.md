@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2025-10-20 09:00:00
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+New blog post published! Read about our illumination-invariant AI system for in-field grape quality mapping. :grapes: :robot:

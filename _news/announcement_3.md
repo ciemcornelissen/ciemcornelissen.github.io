@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2025-10-03 10:00:00
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+New paper published in IEEE Internet of Things Journal! :tada: Our work on illumination-invariant deep learning for in-field grape yield and quality mapping is now available.
