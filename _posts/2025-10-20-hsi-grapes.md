@@ -6,7 +6,7 @@ description: "Our new robotic system uses domain-adversarial learning to overcom
 tags: hyperspectral-imaging precision-agriculture deep-learning computer-vision robotics
 categories: research
 thumbnail: assets/img/blog/2025-10-20-hsi-grapes/exampleScan.png
-giscus_comments: true
+giscus_comments: false
 related_posts: true
 toc:
   sidebar: left
@@ -28,14 +28,22 @@ Hyperspectral sensors are extremely sensitive. The same grape bunch will produce
 
 First, let's look at the visual difference. We created a unique dataset by imaging the exact same grape bunches under three distinct lighting conditions. The change is not subtle.
 
-{% include figure.liquid loading="eager" path="assets/img/blog/2025-10-20-hsi-grapes/dataSetICCV.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        <img src="{{ '/assets/img/blog/2025-10-20-hsi-grapes/dataSetICCV.png' | relative_url }}" class="img-fluid rounded z-depth-1" zoomable="true">
+    </div>
+</div>
 <div class="caption">
     The visual appearance of a single grape bunch changes dramatically across our three domains. From left to right: controlled lab lighting, natural morning sun, and natural afternoon sun.
 </div>
 
 This isn't just a cosmetic effect; it represents a fundamental shift in the data the sensor captures. A standard AI model sees these as three completely different objects. The graph of their spectral signatures makes this problem crystal clear.
 
-{% include figure.liquid loading="eager" path="assets/img/blog/2025-10-20-hsi-grapes/spectralsignatures.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        <img src="{{ '/assets/img/blog/2025-10-20-hsi-grapes/spectralsignatures.png' | relative_url }}" class="img-fluid rounded z-depth-1" zoomable="true">
+    </div>
+</div>
 <div class="caption">
     The plot of the raw spectral data confirms the challenge. Both the intensity and shape of the signature change with illumination, creating a "domain shift" that confuses conventional models and makes robust prediction impossible without a specialized solution.
 </div>
@@ -55,7 +63,11 @@ Instead of relying on physical calibration, we designed an AI model that learns 
 
 During training, we reward the Feature Extractor for helping the Task Predictor succeed while simultaneously "fooling" the Domain Discriminator. This adversarial process forces the model to learn a representation that is highly predictive of grape quality but contains no information about the illumination. It learns the grape's true signature.
 
-{% include figure.liquid loading="eager" path="assets/img/blog/2025-10-20-hsi-grapes/AE.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        <img src="{{ '/assets/img/blog/2025-10-20-hsi-grapes/AE.png' | relative_url }}" class="img-fluid rounded z-depth-1" zoomable="true">
+    </div>
+</div>
 <div class="caption">
     The architecture of our Light-Invariant Spectral Autoencoder (LISA). The adversarial process between the Task Predictor and Domain Discriminator forces the shared features (z) to become illumination-invariant.
 </div>
@@ -71,7 +83,11 @@ LISA is the core of our complete, IoT-enabled robotic system. The platform integ
 
 All predictions are fused with GPS data to create georeferenced data points. As the robot moves through the vineyard, it streams this information, building a detailed, spatially-resolved map of both crop quantity and quality.
 
-{% include figure.liquid loading="eager" path="assets/img/blog/2025-10-20-hsi-grapes/IoTsystemArcitecture.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        <img src="{{ '/assets/img/blog/2025-10-20-hsi-grapes/IoTsystemArcitecture.png' | relative_url }}" class="img-fluid rounded z-depth-1" zoomable="true">
+    </div>
+</div>
 <div class="caption">
     Our integrated robotic platform during in-field data acquisition. The system combines a mobile base, a robotic arm for sensor positioning, a hyperspectral camera, and GPS.
 </div>
@@ -84,7 +100,11 @@ The final output is not just a single prediction, but a comprehensive map that r
 
 Our system successfully identifies individual bunches and provides granular predictions. In our tests, **the LISA module improved quality prediction generalization by over 20%** compared to baseline models that were not robust to illumination changes. The full pipeline achieved a recall of 0.82 for bunch detection and an R² of 0.76 for weight estimation.
 
-{% include figure.liquid loading="eager" path="assets/img/blog/2025-10-20-hsi-grapes/exampleScan.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        <img src="{{ '/assets/img/blog/2025-10-20-hsi-grapes/exampleScan.png' | relative_url }}" class="img-fluid rounded z-depth-1" zoomable="true">
+    </div>
+</div>
 <div class="caption">
     An example of the system's live output. Each detected bunch is annotated with its ID, estimated weight (W), and predicted quality (Brix and Acidity), ready to be mapped.
 </div>
