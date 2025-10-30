@@ -72,7 +72,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/al-folio_test/blog/";
               },
-            },{id: "post-a-post-with-plotly-js",
+            },{id: "post-in-field-grape-quality-mapping-with-illumination-invariant-ai",
+        
+          title: "In-Field Grape Quality Mapping with Illumination-Invariant AI",
+        
+        description: "Our new robotic system uses domain-adversarial learning to overcome changing sunlight, enabling robust, real-time mapping of grape yield, sugar, and acidity.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/al-folio_test/blog/2025/hsi-grapes/";
+          
+        },
+      },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
