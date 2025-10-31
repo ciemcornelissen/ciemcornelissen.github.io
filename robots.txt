@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://ciemcornelissen.github.io/ciemcornelissen.github.io/sitemap.xml
+Sitemap: https://ciemcornelissen.github.io/al-folio_test/sitemap.xml
