@@ -5,7 +5,7 @@
     "image": "",
     "email": "ciem.cornelissen@ugent.be",
     "phone": "",
-    "url": "https://ciemcornelissen.github.io/al-folio_test/",
+    "url": "https://ciemcornelissen.github.io/",
     "summary": "PhD researcher at IDLab (Ghent University - imec) specializing in AI-driven precision agriculture and environmental monitoring. Expertise in hyperspectral imaging, deep learning, and multi-modal sensor fusion for autonomous systems.",
     "location": {
       "address": "",
@@ -149,6 +149,11 @@
       "icon": "fa-solid fa-code",
       "keywords": [
         "Python",
+        "C/C++",
+        "Java",
+        "Matlab",
+        "Prolog",
+        "LaTeX",
         "Git",
         "Docker",
         "Data Visualization",

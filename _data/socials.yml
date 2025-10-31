@@ -14,7 +14,7 @@ email: ciem.cornelissen@ugent.be # your email address
 # facebook_id: # your facebook id
 # flickr_id: # your flickr id
 github_username: ciemcornelissen # your GitHub user name
-gitlab_username: ciem.cornelissen # your GitLab user name (on ilabt.imec.be)
+# gitlab_username: # your GitLab user name
 # hal_id: # your HAL id (https://hal.science/)
 # ieee_id: # your ieeexplore.ieee.org/author/id
 # inspirehep_id: # Inspire HEP author ID
@@ -33,8 +33,8 @@ orcid_id: 0009-0003-0149-6722 # your ORCID ID
 # publons_id: # your ID on Publons
 # quora_username: # your Quora username
 research_gate_profile: Ciem-Cornelissen # your profile on ResearchGate
-rss_icon: true # comment this line to hide the RSS icon
-scholar_userid: # your Google Scholar ID (add when available)
+# rss_icon: true # RSS feed icon hidden
+scholar_userid: UmGdnPYAAAAJ # your Google Scholar ID
 # scopus_id: # your profile on Scopus
 # semanticscholar_id: # your Semantic Scholar ID
 # spotify_id: # your spotify id
@@ -46,7 +46,7 @@ scholar_userid: # your Google Scholar ID (add when available)
 # whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
 # wikidata_id: # your wikidata id
 # wikipedia_id: # your wikipedia id (Case sensitive)
-work_url: https://www.ugent.be/ea/idlab/en # work page URL
+work_url: https://research.ugent.be/web/person/ciem-cornelissen-1/nl # UGent research profile
 # x_username: # your X handle
 # youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 # zotero_username: # your zotero username
