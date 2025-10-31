@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://ciemcornelissen.github.io/ciemcornelissen.github.io/sitemap.xml
