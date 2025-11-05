@@ -18,6 +18,7 @@ Field-deployed optical sensing systems face a critical problem: data captured un
 ### Our Solution
 
 LISA employs domain-adversarial learning to force the model to learn illumination-invariant features. The network is trained to:
+
 1. Accurately predict grape quality (Brix and acidity levels)
 2. Be unable to distinguish between different lighting conditions
 

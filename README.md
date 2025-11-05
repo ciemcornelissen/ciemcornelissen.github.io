@@ -11,6 +11,7 @@ Personal academic website showcasing research in AI-driven precision agriculture
 PhD researcher at IDLab (Ghent University - imec) specializing in adaptive sensor fusion for autonomous systems. My research bridges fundamental machine learning innovation with real-world deployment challenges in precision agriculture and environmental monitoring.
 
 **Research Focus:**
+
 - Multi-modal sensor fusion (Hyperspectral, RGB, SWIR)
 - Domain-invariant deep learning
 - Real-time perception for autonomous systems
@@ -20,20 +21,24 @@ PhD researcher at IDLab (Ghent University - imec) specializing in adaptive senso
 ## Key Features
 
 ### 📚 Publications
+
 - IEEE Internet of Things Journal (2025)
 - WACV 2025 Workshop
 - Neural Computing and Applications (2025)
 - Preview images for all publications
 
 ### 🎯 Research Projects
+
 - **LISA Framework**: Light-Invariant Spectral Autoencoder for precision viticulture
 - **OHSLIC Algorithm**: Online Hyperspectral phenotype segmentation for UAVs
 - **IoT Robotic System**: Complete grape quality mapping system
 
 ### 📝 Blog
+
 Technical posts on hyperspectral imaging, deep learning, and precision agriculture research
 
 ### 🎓 CV & Resume
+
 Interactive CV with downloadable PDF
 
 ## Technology Stack
@@ -77,12 +82,14 @@ http://localhost:8080/al-folio_test/
 ## Content
 
 ### Publications
+
 - **IEEE IoT Journal (2025)**: In-Field Mapping of Grape Yield and Quality with Illumination-Invariant Deep Learning
 - **WACV 2025**: Adaptive Clustering for Efficient Phenotype Segmentation of UAV Hyperspectral Data
 - **Neural Computing and Applications (2025)**: Computational Fairness in Adaptive Neural Networks
 - **Master's Theses**: Quantum Computing for Earth Observation (KU Leuven, 2023), Criticality and Forecasting of Cryptocurrency Markets (UGent, 2022)
 
 ### Research Projects
+
 - LISA Framework: Domain-adversarial deep learning for illumination-invariant grape quality assessment
 - OHSLIC Algorithm: Real-time hyperspectral phenotype segmentation for UAVs
 - Complete IoT Robotic Grape Monitoring System

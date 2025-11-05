@@ -40,9 +40,12 @@
       "startDate": "2024-06-01",
       "endDate": "",
       "summary": "Research on adaptive sensor fusion for autonomous systems, with focus on precision agriculture. Development of LISA (Light-Invariant Spectral Autoencoder) and OHSLIC algorithm for hyperspectral imaging analysis.",
-      "highlights": ["Published in IEEE IoT Journal, WACV, and Neural Computing and Applications", "Developed illumination-invariant deep learning frameworks", "Created efficient UAV-based phenotype segmentation algorithms"]
+      "highlights": [
+        "Published in IEEE IoT Journal, WACV, and Neural Computing and Applications",
+        "Developed illumination-invariant deep learning frameworks",
+        "Created efficient UAV-based phenotype segmentation algorithms"
+      ]
     }
-
   ],
   "volunteer": [],
   "education": [
@@ -147,19 +150,7 @@
       "name": "Software Development",
       "level": "Advanced",
       "icon": "fa-solid fa-code",
-      "keywords": [
-        "Python",
-        "C/C++",
-        "Java",
-        "Matlab",
-        "Prolog",
-        "LaTeX",
-        "Git",
-        "Docker",
-        "Data Visualization",
-        "IoT Systems",
-        "Field Robotics"
-      ]
+      "keywords": ["Python", "C/C++", "Java", "Matlab", "Prolog", "LaTeX", "Git", "Docker", "Data Visualization", "IoT Systems", "Field Robotics"]
     }
   ],
   "languages": [
@@ -178,13 +169,7 @@
     {
       "name": "Autonomous Systems",
       "icon": "fa-solid fa-robot",
-      "keywords": [
-        "Sensor Fusion for Perception",
-        "Real-time On-device Processing",
-        "Domain Adaptation",
-        "Robustness",
-        "UAV Systems"
-      ]
+      "keywords": ["Sensor Fusion for Perception", "Real-time On-device Processing", "Domain Adaptation", "Robustness", "UAV Systems"]
     },
     {
       "name": "Precision Agriculture",
@@ -197,16 +182,11 @@
         "Forest Phenotyping"
       ]
     },
-    
+
     {
       "name": "AI Ethics & Fairness",
       "icon": "fa-solid fa-scale-balanced",
-      "keywords": [
-        "Computational Fairness",
-        "Resource Allocation Disparities",
-        "Ethical AI",
-        "Bias in Machine Learning"
-      ]
+      "keywords": ["Computational Fairness", "Resource Allocation Disparities", "Ethical AI", "Bias in Machine Learning"]
     }
   ],
   "references": [],

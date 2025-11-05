@@ -18,16 +18,19 @@ This project represents the complete realization of precision viticulture techno
 ### Hardware Components
 
 **Custom Hyperspectral Sensor**
+
 - Push-broom imaging spectrometer
 - 224 spectral bands (400-1000nm)
 - Synchronized with robotic motion for geometric accuracy
 
 **Mobile Robot Platform**
+
 - Vineyard-traversable chassis
 - GPS/RTK positioning for geo-registration
 - Onboard computing for real-time processing
 
 **IoT Communication Layer**
+
 - Edge processing with cloud synchronization
 - Real-time data streaming and visualization
 - Multi-robot coordination capability
@@ -35,11 +38,13 @@ This project represents the complete realization of precision viticulture techno
 ### Software Stack
 
 **Perception Pipeline**
+
 - OHSLIC for online phenotype segmentation
 - LISA for illumination-invariant quality prediction
 - Calibration and geometric correction modules
 
 **Mapping & Analytics**
+
 - Spatial interpolation for continuous quality maps
 - Temporal tracking for within-season monitoring
 - Decision support interface for vineyard managers
@@ -47,6 +52,7 @@ This project represents the complete realization of precision viticulture techno
 ### Field Deployment
 
 The system has been deployed across multiple commercial vineyards:
+
 - **Autonomous operation**: Multi-hour missions without human intervention
 - **High-throughput**: Process entire vineyard blocks in single sessions
 - **Accuracy**: Brix prediction R² > 0.85 under field conditions
@@ -55,6 +61,7 @@ The system has been deployed across multiple commercial vineyards:
 ### Innovation
 
 This project bridges the gap between laboratory spectroscopy and operational agriculture. Key innovations include:
+
 - **Robustness**: Handles real-world variability (lighting, occlusion, wind)
 - **Scalability**: System design allows fleet deployment
 - **Usability**: Farm-ready interface for non-technical operators

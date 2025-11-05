@@ -34,7 +34,8 @@ My academic journey reflects a deliberate progression from fundamental science t
 My current research centers on the synergistic combination of **Hyperspectral Imaging (HSI)**, **RGB and SWIR sensors**, **Unmanned Aerial Vehicles (UAVs)**, and **Deep Learning**; particularly transformer-based architectures. I develop end-to-end systems that transform raw multi-modal sensor data from autonomous platforms into actionable insights. A key focus is making these AI systems practically deployable in uncontrolled field environments by addressing challenges like variable illumination, limited computational resources on edge devices, spectral-spatial trade-offs, and the need for real-time processing.
 
 **Key Research Contributions:**
-- Developed **LISA** (Light-Invariant Spectral Autoencoder), a domain-adversarial deep learning framework enabling robust, non-destructive grape quality assessment under varying illumination,  part of a complete IoT-enabled robotic system for precision viticulture
+
+- Developed **LISA** (Light-Invariant Spectral Autoencoder), a domain-adversarial deep learning framework enabling robust, non-destructive grape quality assessment under varying illumination, part of a complete IoT-enabled robotic system for precision viticulture
 - Created **OHSLIC** (Online Hyperspectral Simple Linear Iterative Clustering), an efficient algorithm achieving real-time phenotype segmentation on resource-constrained UAVs through adaptive, on-device processing
 - Co-authored research on computational fairness in adaptive neural networks, introducing resource allocation disparities as a novel dimension of algorithmic fairness and highlighting ethical considerations in efficiency-driven AI
 

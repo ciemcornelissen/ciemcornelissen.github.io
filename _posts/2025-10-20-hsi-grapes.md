@@ -58,8 +58,8 @@ Instead of relying on physical calibration, we designed an AI model that learns 
 
 1.  **A Feature Extractor:** This is the main part of the model. Its job is to look at the raw hyperspectral data and extract a compact, meaningful representation (a latent vector).
 2.  **Two Competing Goals:** We give this extractor two jobs.
-    *   **Task Predictor:** Tries to predict the grape's quality (Brix and Acidity) from the features. This forces the features to be useful.
-    *   **Domain Discriminator:** Tries to guess the lighting condition (e.g., "Lab" vs. "Field") from the same features.
+    - **Task Predictor:** Tries to predict the grape's quality (Brix and Acidity) from the features. This forces the features to be useful.
+    - **Domain Discriminator:** Tries to guess the lighting condition (e.g., "Lab" vs. "Field") from the same features.
 
 During training, we reward the Feature Extractor for helping the Task Predictor succeed while simultaneously "fooling" the Domain Discriminator. This adversarial process forces the model to learn a representation that is highly predictive of grape quality but contains no information about the illumination. It learns the grape's true signature.
 
@@ -122,6 +122,6 @@ While there are still steps to take in testing across more varieties and seasons
 ---
 
 **Paper Citation:**  
-Cornelissen, C., De Coninck, S., Willekens, A., Leroux, S., & Simoens, P. (2025). In-Field Mapping of Grape Yield and Quality with Illumination-Invariant Deep Learning. *IEEE Internet of Things Journal*. [https://doi.org/10.1109/JIOT.2025.3617805](https://doi.org/10.1109/JIOT.2025.3617805)
+Cornelissen, C., De Coninck, S., Willekens, A., Leroux, S., & Simoens, P. (2025). In-Field Mapping of Grape Yield and Quality with Illumination-Invariant Deep Learning. _IEEE Internet of Things Journal_. [https://doi.org/10.1109/JIOT.2025.3617805](https://doi.org/10.1109/JIOT.2025.3617805)
 
 **Preprint:** [arXiv:2510.04864](https://arxiv.org/abs/2510.04864)

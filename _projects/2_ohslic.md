@@ -18,6 +18,7 @@ UAV-based hyperspectral imaging generates massive data volumes (hundreds of spec
 ### Algorithm Innovation
 
 OHSLIC adapts the classic SLIC (Simple Linear Iterative Clustering) algorithm for:
+
 - **Online processing**: Processes data as it streams from the sensor
 - **Hyperspectral efficiency**: Handles hundreds of spectral bands without computational explosion
 - **Memory constraints**: Operates within limited onboard computing resources
