@@ -19,6 +19,7 @@ The talk dives into the challenges of deploying AI in real vineyards and shows h
 </div>
 
 **Highlights from the session:**
+
 - Why hyperspectral sensing is essential for precision viticulture and how RGB perception falls short
 - Our Treebot platform: FX10 hyperspectral camera, UR5e arm, RTK-GPS, and custom vineyard datasets
 - The Light-Invariant Spectral Autoencoder (LISA) architecture and its adversarial training strategy
