@@ -32,6 +32,28 @@ h6 {
     sans-serif !important;
 }
 
+.post-title-action {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 1rem;
+  padding: 0.1rem 0.4rem;
+  border-radius: 999px;
+  font-size: 1.65rem;
+  line-height: 1;
+  color: var(--global-theme-color);
+  transition:
+    color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.post-title-action:hover,
+.post-title-action:focus {
+  color: var(--global-hover-color);
+  text-decoration: none;
+  transform: translateY(-1px);
+}
+
 p,
 div,
 span,
