@@ -1,14 +1,9 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - ciemcornelissen
 
 repo_description_lines_max: 2
+cache_seconds: 600
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - ciemcornelissen/OHSLIC
+  - ciemcornelissen/LISA

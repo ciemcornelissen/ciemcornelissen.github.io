@@ -1,0 +1,15 @@
+- title: "Deep Dive Talk at FAIR Day 2025"
+  event: "FAIR Day 2025"
+  date: 2025-10-15
+  video_id: "dsr9hVqFrWg"
+  youtube_url: "https://www.youtube.com/watch?v=dsr9hVqFrWg"
+  description: "Illumination-invariant hyperspectral imaging with the LISA framework for precision viticulture, presented at Flanders Artificial Intelligence Research (FAIR) Day."
+
+- title: "On-Drone Hyperspectral Plant Analysis with OHSLIC-C-C"
+  event: "IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)"
+  video_id: "qL3wtioDvas"
+  youtube_url: "https://www.youtube.com/watch?v=qL3wtioDvas"
+  description: >-
+    Efficient on-board hyperspectral clustering for UAVs, featuring the simulated 3D forest dataset,
+    adaptive OHSLIC-C-C superpixel segmentation, and real-time predictions of chlorophyll,
+    carotenoid, and anthocyanin trends.
