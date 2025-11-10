@@ -98,7 +98,16 @@ samp {
   line-height: 1.1;
   text-transform: capitalize;
   color: var(--global-text-color);
+  color: color-mix(in srgb, var(--global-text-color) 70%, #ffffff 30%);
   position: relative;
+}
+
+.post-title-primary {
+  font-weight: 700;
+}
+
+.post-title-secondary {
+  font-weight: 400;
 }
 
 .post-title::after {
