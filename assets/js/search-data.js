@@ -37,8 +37,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/repositories/";
           },
-        },{id: "nav-cv",
-          title: "cv",
+        },{id: "nav-curriculum-vitae",
+          title: "Curriculum Vitae",
           description: "Curriculum Vitae - AI Researcher specializing in Computer Vision and Hyperspectral Imaging",
           section: "Navigation",
           handler: () => {
