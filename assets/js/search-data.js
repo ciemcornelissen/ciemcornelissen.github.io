@@ -30,6 +30,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/ciemcornelissen.github.io/projects/";
           },
+        },{id: "nav-repositories",
+          title: "repositories",
+          description: "Featured open-source projects and contributions hosted on GitHub.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/ciemcornelissen.github.io/repositories/";
+          },
         },{id: "nav-cv",
           title: "cv",
           description: "Curriculum Vitae - AI Researcher specializing in Computer Vision and Hyperspectral Imaging",
@@ -43,6 +50,13 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/ciemcornelissen.github.io/teaching/";
+          },
+        },{id: "nav-talks",
+          title: "talks",
+          description: "Recorded talks and invited presentations currently available on YouTube.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/ciemcornelissen.github.io/talks/";
           },
         },{id: "post-in-field-grape-quality-mapping-with-illumination-invariant-ai",
         
