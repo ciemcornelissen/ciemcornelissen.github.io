@@ -38,6 +38,7 @@ My current research centers on the synergistic combination of **Hyperspectral Im
 - Developed **LISA** (Light-Invariant Spectral Autoencoder), a domain-adversarial deep learning framework enabling robust, non-destructive grape quality assessment under varying illumination, part of a complete IoT-enabled robotic system for precision viticulture
 - Created **OHSLIC** (Online Hyperspectral Simple Linear Iterative Clustering), an efficient algorithm achieving real-time phenotype segmentation on resource-constrained UAVs through adaptive, on-device processing
 - Co-authored research on computational fairness in adaptive neural networks, introducing resource allocation disparities as a novel dimension of algorithmic fairness and highlighting ethical considerations in efficiency-driven AI
+- Developed **Le MuMo JEPA**, a multi-modal self-supervised framework that learns unified RGB-LiDAR-thermal representations through learnable fusion tokens, achieving strong performance-efficiency trade-offs on Waymo, nuScenes, and FLIR benchmarks
 
 My work has been published in leading venues including the **IEEE Internet of Things Journal**, **IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)**, and **Neural Computing and Applications**. Beyond research, I serve as a Teaching Assistant for the Reinforcement Learning course at Ghent University (2024-2026) and supervise master's thesis students on topics spanning hyperspectral imaging, deep learning for precision agriculture, and multi-modal sensor fusion.
 

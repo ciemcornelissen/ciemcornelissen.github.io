@@ -263,8 +263,8 @@ display_categories: ["research"] # these categories will be displayed on the fro
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Cornelissen]
+  first_name: [Ciem]
 
   style: apa
   locale: en

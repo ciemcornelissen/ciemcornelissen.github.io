@@ -51,6 +51,7 @@
         - AI-driven precision agriculture and environmental monitoring
         - Development of LISA (Light-Invariant Spectral Autoencoder) for illumination-invariant HSI analysis
         - Creation of OHSLIC algorithm for efficient UAV-based phenotype segmentation
+        - Le MuMo JEPA framework for multi-modal self-supervised representation learning
         - Published in IEEE IoT Journal, WACV, and Neural Computing and Applications
     - title: Research Assistant
       institution: IDLab, Ghent University - imec
@@ -63,6 +64,9 @@
 - title: Publications
   type: time_table
   contents:
+    - year: 2026
+      items:
+        - Le MuMo JEPA – Multi-Modal Self-Supervised Representation Learning with Learnable Fusion Tokens (CVPR Workshop - URVIS)
     - year: 2025
       items:
         - In-Field Mapping of Grape Yield and Quality with Illumination-Invariant Deep Learning (IEEE IoT Journal)
@@ -116,5 +120,6 @@
   contents:
     - Presented research at WACV 2025, IEEE IoT Journal
     - Gave deep dive talk at FAIR Day (October 15, 2025)
+    - Le MuMo JEPA accepted (2026)
     - Active collaboration with ILVO (Institute for Agriculture, Food and Fishery Research Flanders)
     - Member of IDLab research group at Ghent University - imec

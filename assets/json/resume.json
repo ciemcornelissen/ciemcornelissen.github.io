@@ -98,6 +98,13 @@
   "certificates": [],
   "publications": [
     {
+      "name": "Le MuMo JEPA: Multi-Modal Self-Supervised Representation Learning with Learnable Fusion Tokens",
+      "publisher": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops - URVIS",
+      "releaseDate": "2026-03-26",
+      "url": "",
+      "summary": "A self-supervised framework that learns unified representations from RGB images and aligned companion modalities. Extends LeJEPA to the multi-modal setting by learning fusion tokens that act as a latent bottleneck between modality-specific patch stems inside a shared transformer."
+    },
+    {
       "name": "In-Field Mapping of Grape Yield and Quality with Illumination-Invariant Deep Learning",
       "publisher": "IEEE Internet of Things Journal",
       "releaseDate": "2025-10-03",
