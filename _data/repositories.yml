@@ -5,5 +5,6 @@ repo_description_lines_max: 2
 cache_seconds: 600
 
 github_repos:
+  - ciemcornelissen/le-mumo-jepa
   - ciemcornelissen/OHSLIC
   - ciemcornelissen/LISA

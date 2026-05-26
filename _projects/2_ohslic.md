@@ -3,7 +3,7 @@ layout: page
 title: OHSLIC Algorithm
 description: Online Hyperspectral Superpixel Segmentation for UAV Phenotyping
 img: assets/img/projects/model_ohslic.png
-importance: 2
+importance: 3
 category: research
 ---
 

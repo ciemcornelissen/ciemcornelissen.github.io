@@ -3,7 +3,7 @@ layout: page
 title: LISA Framework
 description: Light-Invariant Spectral Autoencoder for precision viticulture
 img: assets/img/projects/AE.png
-importance: 1
+importance: 2
 category: research
 ---
 

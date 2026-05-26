@@ -3,7 +3,7 @@ layout: page
 title: IoT Robotic Grape Monitoring System
 description: Complete end-to-end system for autonomous vineyard sensing
 img: assets/img/projects/robot.png
-importance: 3
+importance: 4
 category: research
 ---
 
