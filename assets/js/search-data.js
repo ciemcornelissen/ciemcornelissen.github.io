@@ -109,6 +109,11 @@ ninja.data = [{
           description: "Complete end-to-end system for autonomous vineyard sensing",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_grape_monitoring/";
+            },},{id: "projects-le-mumo-jepa",
+          title: 'Le MuMo JEPA',
+          description: "Multi-modal self-supervised representation learning with learnable fusion tokens",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/4_lemumo_jepa/";
             },},{
         id: 'social-email',
         title: 'email',
