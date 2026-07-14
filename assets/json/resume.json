@@ -6,7 +6,7 @@
     "email": "ciem.cornelissen@ugent.be",
     "phone": "",
     "url": "https://ciemcornelissen.github.io/",
-    "summary": "PhD researcher at IDLab (Ghent University - imec) specializing in AI-driven precision agriculture and environmental monitoring. Expertise in hyperspectral imaging, deep learning, and multi-modal sensor fusion for autonomous systems.",
+    "summary": "PhD researcher in Computer Science Engineering at IDLab (Ghent University - imec), working on multi-modal self-supervised representation learning for autonomous perception. I develop transformer-based methods for learning unified representations from RGB, LiDAR, thermal, and other sensor streams, with broader research interests in predictive representations and world models.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -18,7 +18,7 @@
       {
         "network": "LinkedIn",
         "username": "ciemcornelissen",
-        "url": "https://www.linkedin.com/in/ciem-cornelissen/"
+        "url": "https://www.linkedin.com/in/ciem-cornelissen-a76139228/"
       },
       {
         "network": "GitHub",
@@ -28,7 +28,7 @@
       {
         "network": "Google Scholar",
         "username": "Ciem Cornelissen",
-        "url": "https://scholar.google.com/citations?user=YOUR_ID"
+        "url": "https://scholar.google.com/citations?user=UmGdnPYAAAAJ"
       }
     ]
   },
@@ -39,11 +39,12 @@
       "url": "https://www.ugent.be/ea/idlab/en",
       "startDate": "2024-06-01",
       "endDate": "",
-      "summary": "Research on adaptive sensor fusion for autonomous systems, with focus on precision agriculture. Development of LISA (Light-Invariant Spectral Autoencoder) and OHSLIC algorithm for hyperspectral imaging analysis.",
+      "summary": "Research on multi-modal self-supervised representation learning and efficient sensor fusion for autonomous perception, with earlier work in hyperspectral imaging and precision agriculture.",
       "highlights": [
-        "Published in IEEE IoT Journal, WACV, and Neural Computing and Applications",
-        "Developed illumination-invariant deep learning frameworks",
-        "Created efficient UAV-based phenotype segmentation algorithms"
+        "Developed Le MuMo JEPA, a multi-modal self-supervised framework for unified RGB-LiDAR-thermal representations, accepted at the CVPR 2026 URVIS Workshop",
+        "Designed learnable fusion tokens as an efficient latent bottleneck and evaluated frozen representations on Waymo, nuScenes, and FLIR for depth, segmentation, and 3D detection",
+        "Developed LISA for illumination-invariant hyperspectral learning and OHSLIC for efficient UAV-based phenotype segmentation",
+        "Published in CVPR Workshops, IEEE Internet of Things Journal, WACV Workshops, and Neural Computing and Applications"
       ]
     }
   ],
@@ -101,7 +102,7 @@
       "name": "Le MuMo JEPA: Multi-Modal Self-Supervised Representation Learning with Learnable Fusion Tokens",
       "publisher": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops - URVIS",
       "releaseDate": "2026-03-26",
-      "url": "",
+      "url": "https://arxiv.org/abs/2603.24327",
       "summary": "A self-supervised framework that learns unified representations from RGB images and aligned companion modalities. Extends LeJEPA to the multi-modal setting by learning fusion tokens that act as a latent bottleneck between modality-specific patch stems inside a shared transformer."
     },
     {
@@ -132,11 +133,12 @@
       "level": "Expert",
       "icon": "fa-solid fa-brain",
       "keywords": [
+        "Self-Supervised Learning",
+        "Multi-Modal Representation Learning",
         "Deep Learning",
         "Computer Vision",
         "Transformer Architectures",
-        "Domain-Adversarial Learning",
-        "Adaptive Neural Networks",
+        "3D Object Detection",
         "PyTorch",
         "TensorFlow"
       ]
@@ -146,9 +148,10 @@
       "level": "Expert",
       "icon": "fa-solid fa-satellite",
       "keywords": [
+        "RGB, LiDAR, and Thermal Sensors",
+        "Multi-modal Sensor Fusion",
         "Hyperspectral Imaging (HSI)",
         "RGB and SWIR Sensors",
-        "Multi-modal Sensor Fusion",
         "UAV-based Remote Sensing",
         "Signal Processing"
       ]
@@ -176,7 +179,7 @@
     {
       "name": "Autonomous Systems",
       "icon": "fa-solid fa-robot",
-      "keywords": ["Sensor Fusion for Perception", "Real-time On-device Processing", "Domain Adaptation", "Robustness", "UAV Systems"]
+      "keywords": ["Self-Supervised Representation Learning", "Predictive Representations", "World Models", "Autonomous Perception", "Robotics"]
     },
     {
       "name": "Precision Agriculture",

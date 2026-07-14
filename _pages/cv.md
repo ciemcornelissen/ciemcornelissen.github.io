@@ -6,7 +6,7 @@ nav_title: cv
 nav: true
 nav_order: 5
 cv_pdf: CV_Ciem_Cornelissen.pdf
-description: Curriculum Vitae - AI Researcher specializing in Computer Vision and Hyperspectral Imaging
+description: Curriculum Vitae - PhD researcher in Computer Science Engineering working on multi-modal self-supervised learning and autonomous perception
 toc:
   sidebar: left
 ---

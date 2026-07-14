@@ -98,7 +98,7 @@ http://localhost:8080/al-folio_test/
 
 - **Email**: ciem.cornelissen@ugent.be
 - **Institution**: IDLab, Ghent University - imec
-- **LinkedIn**: [Ciem Cornelissen](https://www.linkedin.com/in/ciem-cornelissen/)
+- **LinkedIn**: [Ciem Cornelissen](https://www.linkedin.com/in/ciem-cornelissen-a76139228/)
 - **GitHub**: [@ciemcornelissen](https://github.com/ciemcornelissen)
 
 ## Acknowledgments
