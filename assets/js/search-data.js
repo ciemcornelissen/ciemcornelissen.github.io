@@ -39,7 +39,7 @@ ninja.data = [{
           },
         },{id: "nav-curriculum-vitae",
           title: "Curriculum Vitae",
-          description: "Curriculum Vitae - AI Researcher specializing in Computer Vision and Hyperspectral Imaging",
+          description: "Curriculum Vitae - PhD researcher in Computer Science Engineering working on multi-modal self-supervised learning and autonomous perception",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
