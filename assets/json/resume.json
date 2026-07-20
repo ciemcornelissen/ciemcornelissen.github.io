@@ -6,7 +6,7 @@
     "email": "ciem.cornelissen@ugent.be",
     "phone": "",
     "url": "https://ciemcornelissen.github.io/",
-    "summary": "PhD researcher in Computer Science Engineering at IDLab (Ghent University - imec), working on multi-modal self-supervised representation learning for autonomous perception. I develop transformer-based methods for learning unified representations from RGB, LiDAR, thermal, and other sensor streams, with broader research interests in predictive representations and world models.",
+    "summary": "PhD researcher in Computer Science Engineering at IDLab (Ghent University - imec), working on multi-modal self-supervised learning and predictive representations for autonomous systems. My research develops compact latent representations from RGB, LiDAR, and thermal data and extends them toward JEPA-style world models. I am particularly interested in learning latent actions directly from observed transitions without action labels, and in using world models for prediction and planning.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -39,10 +39,11 @@
       "url": "https://www.ugent.be/ea/idlab/en",
       "startDate": "2024-06-01",
       "endDate": "",
-      "summary": "Research on multi-modal self-supervised representation learning and efficient sensor fusion for autonomous perception, with earlier work in hyperspectral imaging and precision agriculture.",
+      "summary": "Research on multi-modal self-supervised learning, predictive representations, and latent world models for autonomous systems, with earlier work in robust and efficient perception.",
       "highlights": [
         "Developed Le MuMo JEPA, a multi-modal self-supervised framework for unified RGB-LiDAR-thermal representations, accepted at the CVPR 2026 URVIS Workshop",
         "Designed learnable fusion tokens as an efficient latent bottleneck and evaluated frozen representations on Waymo, nuScenes, and FLIR for depth, segmentation, and 3D detection",
+        "Investigating how latent world models can learn action representations directly from observed transitions without action labels",
         "Developed LISA for illumination-invariant hyperspectral learning and OHSLIC for efficient UAV-based phenotype segmentation",
         "Published in CVPR Workshops, IEEE Internet of Things Journal, WACV Workshops, and Neural Computing and Applications"
       ]
@@ -54,12 +55,12 @@
       "institution": "Ghent University - imec",
       "location": "Ghent, Belgium",
       "url": "https://www.ugent.be/",
-      "area": "Computer Science Engineering - AI and Sensor Fusion",
+      "area": "Computer Science Engineering",
       "studyType": "PhD",
       "startDate": "2023-09-01",
       "endDate": "",
       "score": "",
-      "courses": ["Adaptive Sensor Fusion", "Precision Agriculture", "Hyperspectral Imaging", "Deep Learning"]
+      "courses": ["Multi-Modal Self-Supervised Learning", "Predictive Representation Learning", "Latent World Models", "Autonomous Perception"]
     },
     {
       "institution": "KU Leuven",
@@ -134,11 +135,12 @@
       "icon": "fa-solid fa-brain",
       "keywords": [
         "Self-Supervised Learning",
+        "Predictive Representation Learning",
+        "Latent World Models",
+        "Latent Action Learning",
+        "Joint-Embedding Predictive Architectures (JEPA)",
         "Multi-Modal Representation Learning",
-        "Deep Learning",
-        "Computer Vision",
         "Transformer Architectures",
-        "3D Object Detection",
         "PyTorch",
         "TensorFlow"
       ]
@@ -150,17 +152,19 @@
       "keywords": [
         "RGB, LiDAR, and Thermal Sensors",
         "Multi-modal Sensor Fusion",
+        "Autonomous Perception",
+        "Depth Estimation",
+        "Semantic Segmentation",
+        "3D Object Detection",
         "Hyperspectral Imaging (HSI)",
-        "RGB and SWIR Sensors",
-        "UAV-based Remote Sensing",
-        "Signal Processing"
+        "On-Device Inference"
       ]
     },
     {
       "name": "Software Development",
       "level": "Advanced",
       "icon": "fa-solid fa-code",
-      "keywords": ["Python", "C/C++", "Java", "Matlab", "Prolog", "LaTeX", "Git", "Docker", "Data Visualization", "IoT Systems", "Field Robotics"]
+      "keywords": ["Python", "C/C++", "Git", "Docker", "Linux", "LaTeX"]
     }
   ],
   "languages": [
@@ -177,26 +181,20 @@
   ],
   "interests": [
     {
-      "name": "Autonomous Systems",
-      "icon": "fa-solid fa-robot",
-      "keywords": ["Self-Supervised Representation Learning", "Predictive Representations", "World Models", "Autonomous Perception", "Robotics"]
+      "name": "World Models & Representation Learning",
+      "icon": "fa-solid fa-brain",
+      "keywords": ["Latent World Models", "Predictive Representations", "JEPA", "Latent Action Learning", "Self-Supervised Learning"]
     },
     {
-      "name": "Precision Agriculture",
-      "icon": "fa-solid fa-seedling",
-      "keywords": [
-        "Non-destructive Crop Monitoring",
-        "Yield and Quality Prediction",
-        "Illumination-invariant Perception",
-        "Viticulture",
-        "Forest Phenotyping"
-      ]
+      "name": "Autonomous & Embodied AI",
+      "icon": "fa-solid fa-robot",
+      "keywords": ["Multi-Modal Perception", "Physical AI", "Robotics", "Prediction and Planning", "Sensor Fusion"]
     },
 
     {
-      "name": "AI Ethics & Fairness",
-      "icon": "fa-solid fa-scale-balanced",
-      "keywords": ["Computational Fairness", "Resource Allocation Disparities", "Ethical AI", "Bias in Machine Learning"]
+      "name": "Efficient & Robust Learning",
+      "icon": "fa-solid fa-gauge-high",
+      "keywords": ["Efficient Architectures", "Label-Efficient Learning", "Domain Generalization", "On-Device Inference", "Robustness"]
     }
   ],
   "references": [],
