@@ -39,7 +39,7 @@ ninja.data = [{
           },
         },{id: "nav-curriculum-vitae",
           title: "Curriculum Vitae",
-          description: "Curriculum Vitae - PhD researcher in Computer Science Engineering working on multi-modal self-supervised learning, predictive representations, and latent world models",
+          description: "Curriculum Vitae - PhD researcher in Computer Science Engineering working on multi-modal self-supervised learning and label-efficient world models for autonomous perception and control",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
@@ -93,6 +93,9 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-new-paper-accepted-at-cvpr-2026-urvis-workshop-tada-our-work-on-le-mumo-jepa-a-multi-modal-self-supervised-framework-for-learning-unified-rgb-lidar-thermal-representations-with-learnable-fusion-tokens-has-been-accepted",
           title: 'New paper accepted at CVPR 2026 URVIS Workshop! :tada: Our work on Le...',
+          description: "",
+          section: "News",},{id: "news-new-preprint-lafree-world-model-lafreewm-introduces-a-label-efficient-approach-to-jepa-world-models-it-learns-discrete-latent-actions-from-unlabelled-observation-sequences-and-uses-limited-labelled-data-to-support-raw-action-planning-read-the-preprint",
+          title: 'New preprint: LaFree World Model (LaFreeWM) introduces a label-efficient approach to JEPA world...',
           description: "",
           section: "News",},{id: "projects-lisa-framework",
           title: 'LISA Framework',
