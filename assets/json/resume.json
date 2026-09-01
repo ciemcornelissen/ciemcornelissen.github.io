@@ -6,7 +6,7 @@
     "email": "ciem.cornelissen@ugent.be",
     "phone": "",
     "url": "https://ciemcornelissen.github.io/",
-    "summary": "PhD researcher in Computer Science Engineering at IDLab (Ghent University - imec), working on multi-modal self-supervised learning and predictive representations for autonomous systems. My research develops compact latent representations from RGB, LiDAR, and thermal data and extends them toward JEPA-style world models. I am particularly interested in learning latent actions directly from observed transitions without action labels, and in using world models for prediction and planning.",
+    "summary": "PhD researcher in Computer Science Engineering at IDLab (Ghent University - imec), developing self-supervised representations and label-efficient world models for autonomous perception and control. My work spans unified RGB-LiDAR-thermal representations with Le MuMo JEPA and latent action learning with LaFreeWM, which infers discrete latent actions from unlabelled observation sequences before limited-label grounding for raw-action planning.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -39,13 +39,14 @@
       "url": "https://www.ugent.be/ea/idlab/en",
       "startDate": "2024-06-01",
       "endDate": "",
-      "summary": "Research on multi-modal self-supervised learning, predictive representations, and latent world models for autonomous systems, with earlier work in robust and efficient perception.",
+      "summary": "Research on self-supervised representation learning and label-efficient latent world models for autonomous perception and control, spanning multi-modal sensor fusion, action-label-free pretraining, and raw-action planning.",
       "highlights": [
+        "Developed LaFreeWM, a label-efficient JEPA world model that infers discrete latent actions during action-label-free pretraining and uses 1% or 10% labelled trajectories for raw-action planning",
+        "Identified a prediction-planning mismatch: removing quantization reduced held-out prediction MSE by about 60-fold but lowered long-horizon planning success from 60.7% to 18.0%",
         "Developed Le MuMo JEPA, a multi-modal self-supervised framework for unified RGB-LiDAR-thermal representations, accepted at the CVPR 2026 URVIS Workshop",
         "Designed learnable fusion tokens as an efficient latent bottleneck and evaluated frozen representations on Waymo, nuScenes, and FLIR for depth, segmentation, and 3D detection",
-        "Investigating how latent world models can learn action representations directly from observed transitions without action labels",
         "Developed LISA for illumination-invariant hyperspectral learning and OHSLIC for efficient UAV-based phenotype segmentation",
-        "Published in CVPR Workshops, IEEE Internet of Things Journal, WACV Workshops, and Neural Computing and Applications"
+        "Research includes the LaFreeWM preprint and publications in CVPR Workshops, IEEE Internet of Things Journal, WACV Workshops, and Neural Computing and Applications"
       ]
     }
   ],
@@ -99,6 +100,13 @@
   "awards": [],
   "certificates": [],
   "publications": [
+    {
+      "name": "LaFree World Model: Label-Efficient Latent Action Inference for JEPA World Models",
+      "publisher": "Preprint",
+      "releaseDate": "2026-09-01",
+      "url": "/publications/#cornelissen2026lafreewm",
+      "summary": "A label-efficient JEPA world model that learns discrete latent actions from unlabelled observation sequences, then grounds its predictor with limited labelled data for raw-action planning. The study also exposes a prediction-planning mismatch in which lower prediction error does not necessarily produce better control."
+    },
     {
       "name": "Le MuMo JEPA: Multi-Modal Self-Supervised Representation Learning with Learnable Fusion Tokens",
       "publisher": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops - URVIS",
