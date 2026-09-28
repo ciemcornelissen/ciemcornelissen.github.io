@@ -101,7 +101,7 @@
   "certificates": [],
   "publications": [
     {
-      "name": "LaFree World Model: Label-Efficient Latent Action Inference for JEPA World Models",
+      "name": "LaFree World Model: Label-Free Pretraining for Action-Conditioned JEPA World Models",
       "publisher": "Preprint",
       "releaseDate": "2026-09-01",
       "url": "/publications/#cornelissen2026lafreewm",
